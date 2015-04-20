@@ -20,7 +20,7 @@ Data Model/Schema design:
 | "03/01/2015" | "$0" | "$0" | "$0" | "$0"  | "$0"  | "$0"  | "Bin2"         | "03/01/2015" | "P2"      | "03/01/2015"   | "$0" |
 +--------------+------+------+------+-------+-------+-------+----------------+--------------+-----------+----------------+------+
 
-1. Write/Update Product prices for a given day for a given ProductId.
+(1) Write/Update Product prices for a given day for a given ProductId.
 
 - Update the product price for a given product Id for a given date by calling API as below
 
@@ -35,7 +35,7 @@ Then it will update the price data for the 3rd day i.e. in Bin3 .
 
 -  Similarly it will go on until the time_counter reaches to the counter i.e. N=7.
 
- 2. Search/Read  the product prices for a given ProductId and for last  ’n’ number of days.
+(2) Search/Read  the product prices for a given ProductId and for last  ’n’ number of days.
 
 - Search for the price data for the given last number of days by calling below API
 
