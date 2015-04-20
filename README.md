@@ -44,6 +44,4 @@ Then it will update the price data for the 3rd day i.e. in Bin3 .
 - If the lastNumberOfDays are greater than time_counter(N) then return "No data found "  else get the price data for given lastNumberOfDays
 For example - to search P1 on "03/03/2015" and lastnumberOfDays is 3, then get the price for last 3 days/bins will be as below
  
- Key-Bin3 Value-$30
- Key-Bin2 Value-$10
- Key-Bin1 Value-$10
+ Key-Bin3 Value-$30 , Key-Bin2 Value-$10 , Key-Bin1 Value-$10
